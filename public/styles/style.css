@@ -1,0 +1,17 @@
+.hero{
+	background-image: url('../images/home3.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	margin-bottom:100px;
+	display: flex;
+	align-items: center;
+}
+
+#hero-info{background-image: url('../images/bg.png'); border-radius: 5px; width: 300px;}
+
+.hero .subtitle{
+	font-size: 25px;
+	font-weight: bold;
+	color: #333; color: white; width: 300px; padding: 10px;text-align: center; }
+.center{text-align: center;}

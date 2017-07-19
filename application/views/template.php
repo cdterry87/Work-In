@@ -3,29 +3,41 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta lang="en" />
-		<title>ProtoPHP - A simple way to prototype websites</title>
-		<style>
-			body{font-family: verdana; font-size: 12px; color: #333;}
-			footer{padding-top: 25px;}
-			a{color: inherit; text-decoration: none;}
-			hr{border-color: #999; color: #999;}
-			h1, h4{margin-top: 5px; margin-bottom: 5px;}
-			.container{margin: 0 auto; width: 300px;}
-			.center{text-align: center;}
-		</style>
+		<title>Work-In - Hate Working Out?  Work In!</title>
+		
+		<link href="<?php echo $this->path('public/node_modules/bulma/css/bulma.css'); ?>" rel="stylesheet">
+		<link href="<?php echo $this->path('public/styles/style.css'); ?>" rel="stylesheet">
 	</head>
 	<body>
-		<header class="container center">
-			<h1><?php echo $this->anchor('','ProtoPHP'); ?></h1>
-			<h4>A simple way to prototype websites</h4>
-			<hr/>
-		</header>
-		<section class="container">
-			<?php $this->view($page); ?>
-		</section>
-		<footer class="container center">
-			<hr/>
-			&copy; Chase Terry <?php echo date('Y'); ?>
+		<nav class="nav">
+			<div class="nav-left">
+				<a class="nav-item" href="<?php echo $this->path(''); ?>">Work-In</a>
+			</div>
+		  
+			<span class="nav-toggle">
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			</span>
+		  
+			<div class="nav-right nav-menu">
+				<?php echo $this->anchor('login', 'Log In', 'class="nav-item"'); ?>
+				<?php echo $this->anchor('signup', 'Sign Up', 'class="nav-item"'); ?>
+			</div>
+		</nav>
+		
+		<div class="columns">
+			<div class="column">
+				<?php $this->view($page); ?>
+			</div>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<div class="content has-text-centered">
+					&copy; WorkIn by Chase Terry <?php echo date('Y'); ?>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
