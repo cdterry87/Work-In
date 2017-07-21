@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta lang="en" />
 		<title>Work-In - Hate Working Out?  Work In!</title>
-		
+		<link rel="shortcut icon" href="<?php echo $this->path('public/images/favicon.png'); ?>" type="image/x-icon">
 		<link href="<?php echo $this->path('public/node_modules/bulma/css/bulma.css'); ?>" rel="stylesheet">
 		<link href="<?php echo $this->path('public/styles/style.css'); ?>" rel="stylesheet">
 	</head>
