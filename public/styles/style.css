@@ -1,16 +1,11 @@
 .hero{
-	background-image: url('../images/home3.jpg');
-	background-repeat: no-repeat;
-	background-position: bottom;
-	background-size: cover;
-	display: flex;
-	align-items: center;
+	background-image: url('../images/home3.jpg'); background-repeat: no-repeat; background-position: bottom; background-size: cover;
+	display: flex; align-items: center;
 }
 
-#hero-info{background-image: url('../images/white.png'); border-radius: 5px; width: 315px; padding: 10px; text-align: center; }
+#hero-info{margin: 0 auto; background-image: url('../images/white.png'); border-radius: 5px; width: 315px; padding: 10px; text-align: center; }
 
-.hero .subtitle{
-	font-size: 30px;
-	font-weight: bold;
-	color: #222;}
+.hero .subtitle{font-size: 30px; font-weight: bold; color: #222;}
 .center{text-align: center;}
+
+#login-form{width: 500px; margin: 0 auto;}

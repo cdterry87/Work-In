@@ -7,7 +7,7 @@
 					Try Working In!<br/>
 					<br/>
 					<div class="field">
-						<p><button class="button is-info">Start Now!</button></p>
+						<p><a href="<?php echo $this->path('signup'); ?>" class="button is-primary">Start Now!</a></p>
 					</div>
 				</h2>
 			</div>

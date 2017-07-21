@@ -34,6 +34,14 @@
 		
 		<footer class="footer">
 			<div class="container">
+				<div>
+					<div class="field"><a href="#" class="is-link">Our Belief</a></div>
+					<div class="field"><a href="#" class="is-link">Customer Support</a></div>
+					<div class="field"><a href="#" class="is-link">Terms of Use</a></div>
+					<div class="field"><a href="#" class="is-link">Privacy Policy</a></div>
+				</div>
+				<br/>
+				<br/>
 				<div class="content has-text-centered">
 					&copy; WorkIn by Chase Terry <?php echo date('Y'); ?>
 				</div>
