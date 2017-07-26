@@ -34,11 +34,17 @@
 		
 		<footer class="footer">
 			<div class="container">
-				<div>
-					<div class="field"><a href="#" class="is-link">Our Belief</a></div>
-					<div class="field"><a href="#" class="is-link">Customer Support</a></div>
-					<div class="field"><a href="#" class="is-link">Terms of Use</a></div>
-					<div class="field"><a href="#" class="is-link">Privacy Policy</a></div>
+				<div class="columns">
+					<div class="column is-one-half">
+						<div>
+							<div class="field"><a href="#" class="is-link">Our Belief</a></div>
+							<div class="field"><a href="#" class="is-link">Customer Support</a></div>
+							<div class="field"><a href="#" class="is-link">Terms of Use</a></div>
+							<div class="field"><a href="#" class="is-link">Privacy Policy</a></div>
+						</div>
+					</div>
+					<div class="column is-one-half">
+					</div>
 				</div>
 				<br/>
 				<br/>
