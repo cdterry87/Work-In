@@ -25,7 +25,7 @@
 			</label>
 			<div class="field">
 				<div class="control">
-					 <button class="button is-primary">Sign Up</button>
+					 <button class="button is-info">Sign Up</button>
 				</div>
 			</div>
 			<div class="field">

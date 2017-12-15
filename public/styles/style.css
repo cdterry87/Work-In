@@ -11,3 +11,37 @@
 #login-form{width: 500px; margin: 0 auto;}
 
 aside ul{list-style: none;}
+
+#description{background-color: #333; color: white; padding: 30px 0 30px;}
+#description strong{color: white;}
+#description p{padding-bottom: 10px; font-size: 18px;}
+
+.big-icon{font-size: 8em !important;}
+.med-icon{font-size: 2em !important;}
+.sm-icon{font-size: 1em !important;}
+
+#cite{font-size: 12px !important; font-style: italic;}
+
+.fa.fa-handshake-o{color: #3273DC !important;}
+.fa.fa-clock-o{color: #FF3860 !important;}
+.fa.fa-trophy{color: #FFDB4A !important;}
+.fa.fa-money{color: #22C65B !important;}
+.fa.fa-balance-scale{color: #00C4A7 !important;}
+.fa.fa-bar-chart{color: #FFAC1E;}
+
+a, .button.is-info.is-outlined{color: #3273DC !important;}
+.button.is-info{color: white !important;}
+.button.is-info.is-outlined:hover{background-color: #F9F9F9;}
+
+a:hover{color: #1B57B7 !important;}
+
+h2{font-weight: bold; font-size: 1em;}
+
+.menu-list a.is-active{background-color: #3273DC; color: white !important;}
+
+#features{padding-top: 25px;}
+#features .columns{padding-bottom: 25px;}
+
+#copyright{font-size: 12px;}
+
+.footer .fa{padding-left: 20px;}

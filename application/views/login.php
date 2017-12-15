@@ -22,7 +22,7 @@
 				</label>
 				<div class="field">
 					<div class="control">
-						 <button class="button is-primary">Log In</button>
+						 <button class="button is-info">Log In</button>
 					</div>
 				</div>
 			</form>
