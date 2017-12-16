@@ -1,4 +1,4 @@
-.hero{
+#home.hero{
 	background-image: url('../images/home3.jpg'); background-repeat: no-repeat; background-position: bottom; background-size: cover;
 	display: flex; align-items: center;
 }
@@ -12,7 +12,7 @@
 
 aside ul{list-style: none;}
 
-#description{background-color: #333; color: white; padding: 30px 0 30px;}
+#description{color: white;}
 #description strong{color: white;}
 #description p{padding-bottom: 10px; font-size: 18px;}
 

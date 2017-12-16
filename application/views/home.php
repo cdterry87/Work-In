@@ -1,4 +1,4 @@
-<section class="hero is-medium">
+<section id="home" class="hero is-medium">
 	<div class="hero-body">
 		<div class="container">
 			<div id="hero-info">
@@ -16,13 +16,16 @@
 </section>
 
 <section id="description" class="center">
-	<p><i class="fa fa-quote-left sm-icon" aria-hidden="true"></i> Work-In is designed to be a convenient and fun way to work out on your own terms.</p>
-	<p>Who has time to go to the gym?  Who has the money for expensive trainers or specialized programs?</p>
-	<p>With our online selection, you will have access to hundreds of programs for <strong>FREE!</strong></p>
-	<p>You can finally have the body you want, and the only thing that can hold you back is <strong>YOU</strong>!
-	<i class="fa fa-quote-right sm-icon" aria-hidden="true"></i></p>
-	</p>
-	<section id="cite">&mdash; Chase Terry, Founder &amp; CEO</section>
+	<div class="hero is-small is-info">
+		<div class="hero-body">
+			<p><i class="fa fa-quote-left sm-icon" aria-hidden="true"></i> Work-In is designed to be a convenient and fun way to work out on your own terms.</p>
+			<p>Who has time to go to the gym?  Who has the money for expensive trainers or specialized programs?</p>
+			<p>With our online selection, you will have access to hundreds of programs for <strong>FREE!</strong></p>
+			<p>You can finally have the body you want, and the only thing that can hold you back is <strong>YOU</strong>!
+			<i class="fa fa-quote-right sm-icon" aria-hidden="true"></i></p>
+			<section id="cite">&mdash; Chase Terry, Founder &amp; CEO</section>
+		</div>
+	</div>
 </section>
 
 <br/>
